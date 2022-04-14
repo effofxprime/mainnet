@@ -1,4 +1,4 @@
-module github.com/vidulum/vidulum
+module github.com/vidulum/mainnet
 
 go 1.16
 
