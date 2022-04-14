@@ -4,9 +4,9 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	keepertest "github.com/vidulum/vidulum/testutil/keeper"
-	"github.com/vidulum/vidulum/x/vidulum"
-	"github.com/vidulum/vidulum/x/vidulum/types"
+	keepertest "github.com/effofxprime/mainnet/testutil/keeper"
+	"github.com/effofxprime/mainnet/x/vidulum"
+	"github.com/effofxprime/mainnet/x/vidulum/types"
 )
 
 func TestGenesis(t *testing.T) {

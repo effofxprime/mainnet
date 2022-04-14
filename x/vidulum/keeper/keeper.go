@@ -7,7 +7,7 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/vidulum/vidulum/x/vidulum/types"
+	"github.com/effofxprime/mainnet/x/vidulum/types"
 )
 
 type (

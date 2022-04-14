@@ -8,7 +8,7 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/client"
 	// "github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/vidulum/vidulum/x/vidulum/types"
+	"github.com/effofxprime/mainnet/x/vidulum/types"
 )
 
 var (

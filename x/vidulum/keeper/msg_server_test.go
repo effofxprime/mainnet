@@ -5,9 +5,9 @@ import (
 	"testing"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	keepertest "github.com/vidulum/vidulum/testutil/keeper"
-	"github.com/vidulum/vidulum/x/vidulum/keeper"
-	"github.com/vidulum/vidulum/x/vidulum/types"
+	keepertest "github.com/effofxprime/mainnet/testutil/keeper"
+	"github.com/effofxprime/mainnet/x/vidulum/keeper"
+	"github.com/effofxprime/mainnet/x/vidulum/types"
 )
 
 func setupMsgServer(t testing.TB) (types.MsgServer, context.Context) {

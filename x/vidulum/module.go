@@ -16,9 +16,9 @@ import (
 	cdctypes "github.com/cosmos/cosmos-sdk/codec/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
-	"github.com/vidulum/vidulum/x/vidulum/client/cli"
-	"github.com/vidulum/vidulum/x/vidulum/keeper"
-	"github.com/vidulum/vidulum/x/vidulum/types"
+	"github.com/effofxprime/mainnet/x/vidulum/client/cli"
+	"github.com/effofxprime/mainnet/x/vidulum/keeper"
+	"github.com/effofxprime/mainnet/x/vidulum/types"
 )
 
 var (

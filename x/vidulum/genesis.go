@@ -2,8 +2,8 @@ package vidulum
 
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/vidulum/vidulum/x/vidulum/keeper"
-	"github.com/vidulum/vidulum/x/vidulum/types"
+	"github.com/effofxprime/mainnet/x/vidulum/keeper"
+	"github.com/effofxprime/mainnet/x/vidulum/types"
 )
 
 // InitGenesis initializes the capability module's state from a provided genesis

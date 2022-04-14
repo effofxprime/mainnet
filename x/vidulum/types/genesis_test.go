@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"github.com/vidulum/vidulum/x/vidulum/types"
+	"github.com/effofxprime/mainnet/x/vidulum/types"
 )
 
 func TestGenesisState_Validate(t *testing.T) {

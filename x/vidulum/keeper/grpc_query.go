@@ -1,7 +1,7 @@
 package keeper
 
 import (
-	"github.com/vidulum/vidulum/x/vidulum/types"
+	"github.com/effofxprime/mainnet/x/vidulum/types"
 )
 
 var _ types.QueryServer = Keeper{}
