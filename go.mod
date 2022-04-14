@@ -1,4 +1,4 @@
-module github.com/vidulum/mainnet
+module github.com/effofxprime/mainnet
 
 go 1.16
 
