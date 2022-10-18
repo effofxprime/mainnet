@@ -1,6 +1,6 @@
-# Upgrade Instruction
+# Upgrade Instructions
 
-## Preping your node
+## Prepping your node
 
 ### Update your node
 
@@ -16,6 +16,16 @@ Install `build-essential` to compile source code
 
 ```bash
 apt-get install -y build-essential
+```
+
+### Update Go To The Latest Version
+
+As your Admin/Root user:
+
+```bash
+GOVER=$(curl https://go.dev/VERSION?m=text)
+wget https://golang.org/dl/${GOVER}.linux-amd64.tar.gz
+sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf ${GOVER}.linux-amd64.tar.gz
 ```
 
 ## GitHub
@@ -68,7 +78,7 @@ server_name: <appd>
 version: 1.2.0
 commit: '"latest"'
 build_tags: ""
-go: go version go1.19 linux/amd64
+go: go version go1.19.2 linux/amd64
 build_deps:
 
 cosmos_sdk_version: v0.45.9
