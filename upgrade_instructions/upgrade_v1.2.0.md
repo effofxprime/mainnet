@@ -10,10 +10,10 @@ Now might be a good time to update your node
 apt-get update && apt-get upgrade
 ```
 
-Install `build-essentials` to compile source code
+Install `build-essential` to compile source code
 
 ```bash
-apt-get install -y build-essentials
+apt-get install -y build-essential
 ```
 
 ### GitHub
