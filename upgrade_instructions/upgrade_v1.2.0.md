@@ -18,6 +18,7 @@ apt-get install -y build-essential
 
 ### GitHub
 
+#### Fresh clone of the repo
 If you haven't already, clone the github repo.
 
 The following instructions should be done as your `vidulum` user.
@@ -29,6 +30,10 @@ git fetch -a
 git checkout v1.2.0
 ```
 
+#### Existing repo
+
+Skip this step if you just got a Fresh Clone of the repo.
+
 If you already have a cloned folder, update it and pull the version to upgrade to. Change `CLONED_REPO_DIR` to the appropriate directory.
 
 ```bash
@@ -36,6 +41,8 @@ cd CLONED_REPO_DIR
 git fetch -a
 git checkout v1.2.0
 ```
+
+#### Build the binary
 
 Build the new binary but do not install/move it.
 
