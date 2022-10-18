@@ -2,6 +2,22 @@
 
 ## Preping your node
 
+### Update your node
+
+Now might be a good time to update your node
+
+```bash
+apt-get update && apt-get upgrade
+```
+
+Install `build-essentials` to compile source code
+
+```bash
+apt-get install -y build-essentials
+```
+
+### GitHub
+
 If you haven't already, clone the github repo.
 
 The following instructions should be done as your `vidulum` user.
