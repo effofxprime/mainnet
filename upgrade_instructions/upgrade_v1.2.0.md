@@ -85,7 +85,7 @@ Change your halt height back to 0 in your `app.toml`
 For those that do fall in this category, you can move your copy of the new binary to the `go/bin` folder.
 
 ```bash
-# Inside the repo as your vidulum user
+# Change directories into  the github repo as your vidulum user
 make install
 rm ~/.local/bin/vidulumd
 ln -s ~/go/bin/vidulumd ~/.local/bin/vidulumd
