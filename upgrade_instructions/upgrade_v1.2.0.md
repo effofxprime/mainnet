@@ -30,6 +30,28 @@ sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf ${GOVER}.linux-amd64.ta
 
 ## GitHub
 
+### Catch up to Block 5212050
+
+*Do this step ONLY if you halted at height 5212000*
+
+We first tried to halt at 5212000 but that didn't work out.  If you halted there and didn't turn back on, you first need to catch up to the latest block on the old version.
+
+On `vidulumd` repo version `v1.0.0`:
+Watch the journal first.
+```bash
+journalct -u vidulum -f
+```
+
+Next change your halt height in `app.toml` to be `5212049`
+```
+halt-height = 5212049
+```
+
+Now start the vidulum service.  It should exit and halt the service once it reaches this block.  If not, and your service keeps restarting, you will need to manually stop the service.
+This is why we have the journal up to show us logs as it happens!
+
+Once you've caught up to block 5212049, you can move on to upgrading your binary!
+
 ### Fresh clone of the repo
 If you haven't already, clone the github repo.
 
