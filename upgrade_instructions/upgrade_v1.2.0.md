@@ -103,7 +103,7 @@ ln -s ~/go/bin/vidulumd ~/.local/bin/vidulumd
 
 If you have followed the Vidulum Documentation for installation, the above is recommended.  `make install` will place the binary in `~/go/bin` automatically, so this just creates a link to the defined location from the installation instructions.
 
-When the time comes to restart the chain, as your admin user run
+:stop_sign:	When the time comes to restart the chain, as your admin user run :stop_sign:
 
 ```bash
 sudo systemctl start vidulum && journalctl -u vidulum -f
