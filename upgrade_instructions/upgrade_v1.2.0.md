@@ -52,9 +52,7 @@ Build the new binary but do not install/move it.
 make build
 ```
 
-This will compile the binary and place it in the location
-
-`./build/vidulumd`
+This will compile the binary and place it in the location: `./build/vidulumd`
 
 Now we want to ensure it's the correct version.
 
