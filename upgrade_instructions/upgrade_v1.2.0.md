@@ -4,6 +4,8 @@
 
 ### Update your node
 
+Don't just COPY & PASTE, read and ensure the commands meet your needs/paths
+
 Now might be a good time to update your node
 
 ```bash
