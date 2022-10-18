@@ -59,6 +59,12 @@ After a draft release is created, make your final changes from the release page 
 
 To install the latest version of your blockchain node's binary, execute the following command on your machine:
 
+### Upgrade
+
+For upgrade instructions, refer to the upgrade folder and corrisponding version to upgrade to.
+
+https://github.com/effofxprime/mainnet/tree/v1.2/upgrade_instructions
+
 TODO
 
 ## Learn more
