@@ -73,6 +73,11 @@ cd ~/.vidulum
 wget https://rpc.erialos.me:8080/vidulum/vidulum_snapshot_Oct-18-2022.tar.gz
 ```
 
+delete your existing data directory
+```bash
+rm -rf ~/.vidulum/data
+```
+
 Now extract the tar.gz file
 ```bash
 tar zxf vidulum_snapshot_Oct-18-2022.tar.gz
