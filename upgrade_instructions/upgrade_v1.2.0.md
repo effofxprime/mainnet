@@ -52,6 +52,53 @@ This is why we have the journal up to show us logs as it happens!
 
 Once you've caught up to block 5212049, you can move on to upgrading your binary!
 
+## ALTERNATIVE TO PREVIOUS STEP
+### Snapshot Method
+
+There were issues due to when and how the chain halted.  Some nodes prevoted on the block that we were trying to gain consensus on.  5212052.
+The simple fix is to back up your `priv_validator_state.json` in the `$HOME/.vidulum/data` directory.
+
+Backup state file:
+```bash
+cp ~/.vidulum/data/priv_validator_state.json ~/.vidulum/
+```
+Verify that the copy exists before moving on.
+
+Next, download the snapshot here:
+https://rpc.erialos.me:8080/vidulum/
+
+To download this to your server:
+```bash
+cd ~/.vidulum
+wget https://rpc.erialos.me:8080/vidulum/vidulum_snapshot_Oct-18-2022.tar.gz
+```
+
+Now extract the tar.gz file
+```bash
+tar zxf vidulum_snapshot_Oct-18-2022.tar.gz
+```
+
+This should extract a folder called `data` in the current working directory which should be `~/.vidulum`
+
+Now we need to replace your state file:
+```bash
+cp priv_validator_state.json data/
+```
+
+Your data dir is now all set.  You should see this when you `ls -lha`.  The size of your `priv_validator_state.json` could differ.
+```
+total 372K
+drwx------ 8 vidulum vidulum 4.0K Oct 19 16:33 .
+drwxrwxr-x 4 vidulum vidulum 4.0K Oct 18 15:28 ..
+drwxr-xr-x 2 vidulum vidulum  16K Oct 19 06:45 application.db
+drwxr-xr-x 2 vidulum vidulum 128K Oct 19 06:45 blockstore.db
+drwx------ 2 vidulum vidulum 4.0K Oct 19 14:29 cs.wal
+drwxr-xr-x 2 vidulum vidulum 4.0K Oct 19 06:45 evidence.db
+-rw------- 1 vidulum vidulum  272 Oct 19 16:33 priv_validator_state.json
+drwxr-xr-x 3 vidulum vidulum 4.0K Aug  6 19:54 snapshots
+drwxr-xr-x 2 vidulum vidulum 196K Oct 19 06:45 state.db
+```
+
 ### Fresh clone of the repo
 If you haven't already, clone the github repo.
 
