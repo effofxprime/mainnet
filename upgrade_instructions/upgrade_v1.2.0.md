@@ -73,6 +73,7 @@ cd ~/.vidulum
 wget https://rpc.erialos.me:8080/vidulum/vidulum_snapshot_Oct-18-2022.tar.gz
 ```
 
+Before doing so :stop_sign: ENSURE YOU BACKED UP YOUR STATE FILE :stop_sign:
 delete your existing data directory
 ```bash
 rm -rf ~/.vidulum/data
