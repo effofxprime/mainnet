@@ -163,8 +163,6 @@ cosmos_sdk_version: v0.45.9
 
 ### For those who where there for the halt
 
-Do not START your daemon yet until word has been given to do so in discord.
-
 Change your halt height back to 0 in your `app.toml`
 
 For those that do fall in this category, you can move your copy of the new binary to the `go/bin` folder.
